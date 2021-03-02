@@ -1,0 +1,13 @@
+from tkinter import *
+cb = Tk()
+c1 = IntVar()
+Checkbutton(cb,text="Python",variable=c1).grid(row=0,sticky=W)
+c2 = IntVar()
+Checkbutton(cb,text="Linux",variable=c2).grid(row=1,sticky=W)
+c3 = IntVar()
+Checkbutton(cb,text="Data Structure",variable=c3).grid(row=2,sticky=W)
+c4 = IntVar()
+Checkbutton(cb,text="Programing c",variable=c4).grid(row=3,sticky=W)
+c5 = IntVar()
+Checkbutton(cb,text="Statistical & Hypothesis Testing",variable=c5).grid(row=4,sticky=W)
+mainloop()
