@@ -1,0 +1,12 @@
+import mysql.connector
+conn= mysql.connector.connect(user="root",password="sachin",host="127.0.0.1",database="fy2")
+cursor= conn.cursor()
+print("List of table in the database:")
+cursor.execute("SHOW TABLES")
+print(cursor.fetchall())
+cursor.execute =("DROP TABLE FROM STUDENT")
+print("...Table Dropped...")
+print("List The tables after dropping the employee table:")
+cursor.execute("SHOW Tables")
+print(cursor.fetchall())
+#conn.close()
